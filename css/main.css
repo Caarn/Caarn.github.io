@@ -1,0 +1,396 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+}
+
+.vidget {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.background {
+    width: 100%;
+    height: 1494px;
+    background: url("../images/v38_156.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    max-width: 1366px;
+    width: 100%;
+    height: 1494px;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.decoration {
+    width: 100%;
+    height: 1494px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.hellotext {
+    width: 576px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 147px;
+    left: 107px;
+    text-shadow: 5px 5px 21px rgba(0, 0, 0, 0.4000000059604645);
+    font-family: Rockwell;
+    font-weight: Bold;
+    font-size: 100px;
+    text-align: left;
+    justify-content: left;
+}
+
+.image_bird {
+    width: 598px;
+    height: 545px;
+    background: url("../images/v38_165.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
+    position: absolute;
+    top: 179px;
+    left: 700px;
+    overflow: hidden;
+}
+
+.contact_container {
+    width: 100%;
+    height: 78px;
+    background: rgba(11, 22, 60, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1494px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.contact {
+    width: 238px;
+    height: 45px;
+    position: absolute;
+    top: 14px;
+    left: 25px;
+    overflow: hidden;
+}
+
+.name {
+    width: 239px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+}
+
+.privilege {
+    width: 191px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+}
+
+.number {
+    width: 221px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    font-family: Reem Kufi;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: right;
+}
+
+.block_vk {
+    width: 246px;
+    height: 58px;
+    background: rgba(243, 243, 243, 1);
+    opacity: 1;
+    position: absolute;
+    top: 48px;
+    left: 105px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.block_vk_text {
+    width: 246px;
+    color: rgba(102, 102, 102, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.block_telegram {
+    width: 246px;
+    height: 57px;
+    background: rgba(243, 243, 243, 1);
+    opacity: 1;
+    position: absolute;
+    top: 48px;
+    left: 396px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.block_telegram_text {
+    width: 246px;
+    color: rgba(102, 102, 102, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.block_github {
+    width: 246px;
+    height: 57px;
+    background: rgba(243, 243, 243, 1);
+    opacity: 1;
+    position: absolute;
+    top: 48px;
+    left: 683px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.block_github_text {
+    width: 246px;
+    color: rgba(102, 102, 102, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Noto Sans;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.main_block {
+    width: 524px;
+    height: 524px;
+    background: url("../images/v38_176.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 518px;
+    left: 107px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.main_block_text {
+    width: 495px;
+    color: rgba(11, 22, 60, 1);
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    font-family: Reem Kufi;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.firstblock {
+    width: 250px;
+    height: 250px;
+    background: url("../images/v38_188.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 792px;
+    left: 655px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.firstblock_text {
+    width: 225px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Reem Kufi;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.secondblock {
+    width: 249px;
+    height: 250px;
+    background: url("../images/v38_185.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1065px;
+    left: 107px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.secondblock_text {
+    width: 136px;
+    color: rgba(11, 22, 60, 1);
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    text-shadow: 3px 6px 6px rgba(0, 0, 0, 0.25);
+    font-family: Reem Kufi;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.thirdblock {
+    width: 250px;
+    height: 250px;
+    background: url("../images/v38_182.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1065px;
+    left: 381px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.thirdblock_text {
+    width: 218px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 17px;
+    left: 21px;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Reem Kufi;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.forthyblock {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background: url("../images/v38_179.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1065px;
+    left: 655px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.forthyblock_text {
+    display: flex;
+    width: 212px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    font-family: Reem Kufi;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.contact-item {
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    color: rgba(102, 102, 102, 1);
+    ;
+    text-decoration: none;
+}
